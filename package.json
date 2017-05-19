@@ -1,0 +1,25 @@
+{
+  "name": "trending-topic-twitter",
+  "version": "1.0.0",
+  "description": "Realtime web app Trending Topic Twitter",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "expose": "ngrok http 3000"
+  },
+  "keywords": [
+    "realtime-web",
+    "minor-webdevelopment"
+  ],
+  "author": "Nooroel Imamdi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "ngrok": "^2.2.9",
+    "socket.io": "^1.7.3",
+    "twitter": "^1.7.0"
+  }
+}
